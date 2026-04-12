@@ -1,0 +1,48 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/img_product"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerInside"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samsung Galaxy A55 5G"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_primary"
+            app:layout_constraintTop_toBottomOf="@id/img_product" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 5.999.000"
+            android:background="@drawable/bg_badge_series"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

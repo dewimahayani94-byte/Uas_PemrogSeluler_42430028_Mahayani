@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="samsung_blue">#3635FF</color>
+    <color name="awesome_blue">#A5C9FF</color>
+    <color name="awesome_graphite">#212121</color>
+    <color name="awesome_white">#F5F5F5</color>
+
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
 </resources>
