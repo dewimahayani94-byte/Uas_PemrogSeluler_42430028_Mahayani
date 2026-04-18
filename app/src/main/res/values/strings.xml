@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Uas_Pemrogseluler_42430028_Mahayani</string>
+    <string name="app_name">Katalog Samsung A Series</string>
+    <string name="desc_product_image">Gambar Produk Samsung</string>
+    <string name="title_samsung_galaxy">Samsung Galaxy</string>
+    <string name="label_price">Harga</string>
+    <string name="label_specs">Spesifikasi Utama:</string>
+    <string name="placeholder_no_specs">- Belum ada data spesifikasi</string>
 </resources>
