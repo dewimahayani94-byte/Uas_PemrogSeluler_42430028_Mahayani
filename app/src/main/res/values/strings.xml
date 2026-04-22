@@ -5,4 +5,27 @@
     <string name="label_price">Harga</string>
     <string name="label_specs">Spesifikasi Utama:</string>
     <string name="placeholder_no_specs">- Belum ada data spesifikasi</string>
+    <string-array name="data_name">
+        <item>Samsung Galaxy A05</item>
+        <item>Samsung Galaxy A15 5G</item>
+        <item>Samsung Galaxy A25 5G</item>
+        <item>Samsung Galaxy A35 5G</item>
+        <item>Samsung Galaxy A55 5G</item>
+    </string-array>
+
+    <string-array name="data_price">
+        <item>Rp 1.499.000</item>
+        <item>Rp 3.599.000</item>
+        <item>Rp 3.999.000</item>
+        <item>Rp 4.999.000</item>
+        <item>Rp 5.999.000</item>
+    </string-array>
+
+    <string-array name="data_specs">
+        <item>- Layar: 6.7" HD+\n- Kamera: 50MP\n- Baterai: 5000 mAh</item>
+        <item>- Layar: 6.5" FHD+ Super AMOLED\n- Kamera: 50MP\n- Prosesor: Dimensity 6100+</item>
+        <item>- Layar: 6.5" FHD+ Super AMOLED 120Hz\n- Kamera: 50MP OIS\n- Prosesor: Exynos 1280</item>
+        <item>- Layar: 6.6" FHD+ Super AMOLED 120Hz\n- Fitur: IP67 Water Resistant\n- Kamera: 50MP OIS</item>
+        <item>- Layar: 6.6" FHD+ Super AMOLED 120Hz\n- Desain: Premium Glass &amp; Metal\n- Prosesor: Exynos 1480</item>
+    </string-array>
 </resources>
