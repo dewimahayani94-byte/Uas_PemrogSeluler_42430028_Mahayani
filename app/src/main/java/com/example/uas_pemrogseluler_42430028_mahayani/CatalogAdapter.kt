@@ -43,9 +43,12 @@ class CatalogAdapter(private var listSamsung: ArrayList<Samsung>) : RecyclerView
             holder.itemView.setOnClickListener {
                 Log.d(nimTag, "Item diklik: $name")
                 val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+
                 intentDetail.putExtra("EXTRA_NAME", name)
                 intentDetail.putExtra("EXTRA_PRICE", price)
                 intentDetail.putExtra("EXTRA_SPECS", specs)
+                intentDetail.putExtra("EXTRA_IMAGE", image) // <-- INI YANG TADI TERLEWAT
+
                 holder.itemView.context.startActivity(intentDetail)
             }
         } catch (e: Exception) {

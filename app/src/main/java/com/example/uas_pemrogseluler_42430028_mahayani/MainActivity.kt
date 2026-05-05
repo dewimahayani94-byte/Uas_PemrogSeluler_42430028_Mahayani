@@ -129,9 +129,18 @@ class MainActivity : AppCompatActivity() {
         val dataPrice = resources.getStringArray(R.array.data_price)
         val dataSpecs = resources.getStringArray(R.array.data_specs)
 
+        // Mengambil gambar dari folder drawable
+        val dataImage = intArrayOf(
+            R.drawable.img_a05,
+            R.drawable.img_a15,
+            R.drawable.img_a25,
+            R.drawable.img_a35,
+            R.drawable.img_a55
+        )
+
         val listHp = ArrayList<Samsung>()
         for (i in dataName.indices) {
-            val hp = Samsung(dataName[i], dataPrice[i], dataSpecs[i], 0)
+            val hp = Samsung(dataName[i], dataPrice[i], dataSpecs[i], dataImage[i])
             listHp.add(hp)
         }
         return listHp

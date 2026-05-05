@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/awesome_white">
@@ -30,8 +29,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="24dp"
-        android:src="@drawable/ic_launcher_background"
-        android:scaleType="centerInside"
+        android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/guideline_vertical"
         app:layout_constraintTop_toBottomOf="@id/btn_back"
